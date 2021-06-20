@@ -1,0 +1,4 @@
+/home/pi/bin/home.py log demand
+/home/pi/bin/home.py log pool
+#/home/pi/bin/home.py log battery
+/home/pi/bin/home.py log klgb

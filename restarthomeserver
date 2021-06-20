@@ -1,0 +1,6 @@
+PID=`ps ax | grep homeserver.js | grep node | awk '{print $1}'`
+if [ $PID != "" ]; then
+  kill $PID
+fi
+node ~/homeserver.js > homeserver.log 2>&1 &
+
